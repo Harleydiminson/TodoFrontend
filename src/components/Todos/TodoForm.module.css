@@ -1,0 +1,29 @@
+.todoForm {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+}
+
+.todoForm /* Css form */
+input {
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin: 20px;
+}
+
+.todoForm
+button {
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 0;
+  margin: 20px;
+  cursor: pointer;
+}
+.todoForm
+button:hover {
+  background-color: #bba9a9;
+}

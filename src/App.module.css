@@ -1,0 +1,33 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: max-content;
+  min-width: 45vw;
+  min-height: 80vh;
+  max-height: auto;
+  border-radius: 8px;
+  box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
+  padding-bottom: 15px;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 20px 0;
+}
+
+
+@media screen and (max-width: 500px) {
+  .container {
+      width: 90%;
+  }
+}
